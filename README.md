@@ -28,45 +28,47 @@ BioStream es una aplicación para el análisis y gestión de secuencias biológi
 ## Instalación y configuración
 
 1. Clonar el repositorio:
-
+```
 git clone https://github.com/tu_usuario/BioStream.git
 cd BioStream
-
+```
 1. Crear y activar entorno virtual:
-
+```
 python -m venv env
 source env/bin/activate # Linux/Mac
-
+```
 o
+```
 env\Scripts\activate # Windows
-
+```
 
 1. Instalar dependencias backend:
-
+```
 pip install -r backend/requirements.txt
-
+```
 
 1. Ejecutar migraciones:
-
+```
 cd backend
 python manage.py makemigrations
 python manage.py migrate
-
+```
 1. (Opcional) Crear superusuario para panel admin:
-
+```
 python manage.py createsuperuser
-
+```
 
 1. Ejecutar servidor Django:
-
+```
 python manage.py runserver
-
+```
 1. En otra terminal, instalar dependencias frontend y ejecutar Streamlit:
 
+```
 cd frontend
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 
 ## Uso
@@ -78,7 +80,7 @@ streamlit run app.py
 ---
 
 ## Estructura del proyecto
-
+```
 BioStream/
 │
 ├── backend/ # Proyecto Django (API)
@@ -94,7 +96,7 @@ BioStream/
 │
 ├── README.md
 └── ...
-
+```
 ---
 
 ## Próximas mejoras
