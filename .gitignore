@@ -1,1 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (es recomendable incluirlas, pero si quieres ignorarlas)
+# **/migrations/*.py
+# **/migrations/*.pyc
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 entorno
+.entorno
+.entorno/
+entorno/
+entorno/
+entorno/
+entorno.bak/
+entorno.bak/
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Streamlit cache and temp files
+.streamlit/
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Python virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
